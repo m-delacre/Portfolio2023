@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+	<title>cursorblue</title>
+	<defs>
+		<image  width="100" height="100" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAAXNSR0IB2cksfwAAADNQTFRFAAAAbqPibqPibqPibqPibqPibqPibqPibqPibqPibqPibqPibqPibqPibqPibqPibqPinHFKBQAAABF0Uk5TABBAcI+vz+/fv59/UP8wIGBBufQ7AAABhUlEQVR4nO2YW5KDIBBFRQREbXX/q00sJhWTMoZ7wcxPnw2cwn7aTaMoiqIoinI9prWd8z700Q3jdIlhikFecNbUVbT+zfDnqfie2R0ZkmapozDd4SsedDU0bX+muBPaYoc9fUbClilM912xfbIix+eIvxILJHnv2HC0w2Y7RFbSMWfE/AmXYwvkkEDVS35AEsP1D7kz45IBdRB53MIOEbgn55bhnh50GMIhAibYSknATsl8LbS5GDh/E9DUnzgH1sGQ1rhnRCR4JSagoHBxByWRlEDl+G1D+URAJKRD5BcvgT4XGxOPSNgUhkYKOnofQCN4JCXQKsn2Lmg2cjMLnVpc5MFVgpuMUBP+0YxvPOGASnGD2bvwzR4fKcSf0AJLmJ8HNIupny1wLQrEUt+gsWcvIEhFgnW4Iz8sJX/yuRPSF12lMi8ShZevnIW18LbSZORYqHFZm8/DH7n6QDS1FBvTceePlW+qxr6lc4hjxVc8Wcch+iDBu6FbK99rFUVRFEVR/pEbz3CBT/S26zEAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
