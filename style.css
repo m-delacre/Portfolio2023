@@ -42,7 +42,7 @@ body{
   bottom: 25px;
   right: 25px;
   z-index: 2;
-  border: 0;
+  border: 2px solid #474973;
   font-size: 25px;
 }
 
@@ -117,7 +117,7 @@ header a{
   left: 0;
   border-radius: 38% 62% 36% 64% / 57% 71% 29% 43% ;
   background: #161b330b;
-  animation: morph 8s ease-in-out infinite;
+  animation: morph 4s ease-in-out infinite;
 }
 
 @keyframes morph {
@@ -143,7 +143,7 @@ header a{
 .skills{
   width: 800px;
   height: fit-content;
-  margin-bottom: 150px;
+  margin-bottom: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -194,7 +194,7 @@ header a{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
   background: #F1DAC4; 
 }
 
@@ -205,7 +205,180 @@ header a{
   background-color: #161B33;
 }
 
+.jobOpen a{
+  color: #F1DAC4;
+  text-decoration: none;
+}
+
+.jobOpen a:visited{
+  color: #F1DAC4;
+  text-decoration: none;
+}
+
 .projectsSection{
   width: 100%;
-  height: 200px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #474973;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.projectsSection p{
+  font-size: 18px;
+}
+
+.projectsSection ul{
+  width: 800px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 0;
+  row-gap: 30px;
+  margin-top: 50px;
+  background-color: #F1DAC4;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.projectsSection ul li{
+  list-style: none;
+  flex: 0 0 30%;
+}
+
+.projectsSection li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  background-color: #161B33;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.projectsSection li img{
+  width: 350px;
+  height: 250px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.projectsSection li p{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.project-card-bot{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.project-card-bot p{
+  font-weight: 600;
+}
+
+.project-card-bot a{
+  text-decoration: none;
+}
+
+.project-card-bot a:visited{
+  text-decoration: none;
+}
+
+.project-card-bot .github-link{
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-card-bot .github-link img{
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.project-card-bot .github-link a {
+  color: #161B33;
+  padding: 0px;
+}
+
+.see-more{
+  background-color: #F1DAC4;
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  color: #161B33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  border: 4px solid #161B33;
+}
+
+.contactSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  width: 800px;
+  height: fit-content;
+}
+
+.contactSection p{
+  margin: 0;
+}
+
+.contactSection a{
+  width: 150px;
+  height: 50px;
+  background-color: #F1DAC4;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #161B33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 4px solid #474973;
+}
+
+.contactSection a:visited{
+  text-decoration: none;
+  color: #161B33
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #F1DAC4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #161B33;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
